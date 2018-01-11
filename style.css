@@ -1,14 +1,14 @@
 body{
+    display: grid;
     height: 100%;
     width: 100%;
     position: absolute;
-    display: grid;
     grid-template-columns: 1em 1fr 2fr 1em;
     grid-template-rows: 50px 1fr 2fr;
     margin: 0;
 }
 nav{
-    background-color: green;
+    background-color: #25283D;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -16,19 +16,20 @@ nav{
 }
 .image-holder{
     width:100%;
-    background-color: aquamarine;
+    background-color: #8F3985;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 4;
 }
 .meta-content{
+    background-color: #CEA2AC;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
 }
 .content{
-    background-color: blue;
+    background-color: #A675A1;
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 3;
